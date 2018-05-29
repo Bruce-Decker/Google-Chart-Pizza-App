@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<!-- Latest compiled and minified CSS -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script type="text/javascript" src="chart.js"></script>
+	<link rel = "stylesheet" href = "style.css">
+
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    
+	
+</head>
+<body>
+   <div class = "crust">
+        
+	   	 <form id = "crustOrder" method = "click">
+	   	  
+	   	 	 <h1 class = "font-blue"> Choose Size &amp; Crust </h1>
+		   	 <div class = "crust_col_1">
+					   
+					    <h4 class = "font-blue"> Hand Tossed </h4>
+					    <h5> Garlic-seasoned crust with a rich, buttery taste </h5>
+					      <form id = "crust_order" method = "click">
+								<div class="radio1">
+								  <label><input type="radio" name="radio" id = "Hand_Tossed_Small_10" value = "Hand Tossed Small (10 &quot)">Small (10")</label>
+								</div>
+								<div class="radio1">
+								  <label><input type="radio" name="radio" id = "Hand_Tossed_Medium_12" value = "Hand Tossed Medium (12 &quot)">Medium (12")</label>
+								</div>
+								<div class="radio1">
+								  <label><input type="radio" name="radio" id = "Hand_Tossed_Large_14" value = "Hand Tossed Large (14 &quot)">Large (14")</label>
+								</div>
+								<div class="radio1">
+								  <label><input type="radio" name="radio" id = "Hand_Tossed_XLarge_16" value = "Hand Tossed X-Large(16 &quot)">X-Large(16")</label>
+								</div>
+
+						 
+			   
+			           <h4 class = "font-blue"> Gluten Free Crust </h4>
+			           <h5> Domino's pizza made with a gluten free crust </h5>
+			           <div class="radio1">
+								  <label><input type="radio" name="radio" id = "Gluten_Free_Small_10" value = "Gluten Free Crust Small (10 &quot)">Small (10")</label>
+					   </div>
+					  <input type = "button" class = "btn btn-primary 1" value = "Submit" />
+		     </div>
+		     <div class = "crust_col_2">
+			 	 <h4 class = "font-blue"> Homemade Pan </h4>
+			 	 <h5> Two layers of cheese toppings to the edge, and a crust that bakes up golden and crispy with a buttery taste. </h5>
+			 	 <div class="radio1">
+							  <label><input type="radio" name="radio" id = "Homemade_Pan_Medium_12" value = "Homemade Pan Medium (12 &quot)"= >Medium (12")</label>
+				 </div>
+				 
+
+			 </div>
+			
+			 <div class = "crust_col_3">
+			 	 <h4 class = "font-blue"> Crust Thin Crust </h4>
+			 	 <h5> Thin enough for the optimum crispy to crunchy ratio </h5>
+			 	
+				 <div class="radio1">
+							  <label><input type="radio" name="radio" id = "Thin_Crust_Large_14" value = "Thin Crust Large (14 &quot)" >Large (14")</label>
+				 </div>
+				  <div class="radio1">
+							  <label><input type="radio" name="radio" id = "Thin_Crust_Medium_12" value = "Thin Crust Medium (12 &quot)">Medium (12")</label>
+				 </div>
+
+			 </div>
+			 <div class = "crust_col_4">
+			 	 <h4 class = "font-blue"> Brooklyn Style </h4>
+			 	 <h5> Hand stretched to be big, thin and perfectly foldable </h5>
+			 	 <div class="radio1">
+							  <label><input type="radio" name="radio" id = "Brooklyn_Large_14" value = "Brooklyn Style Large (14 &quot)">Large (14")</label>
+				 </div>
+				 <div class="radio1">
+							  <label><input type="radio" name="radio" id = "Brooklyn_XLarge_16" value = "Brooklyn Style Extra Large (16 &quot)">X-Large(16")</label>
+				 </div>
+
+			 </div>
+           
+           
+       </form>
+      
+  </div>
+
+  <div class = "cheese_sauce">
+  	<form id = "cheese_order" method = "click">
+  	    <h1 class = "font-blue"> Choose Cheese &amp; Sauce </h1>
+		   	 <div class = "cheese">
+					    <h4 class = "font-blue"> Cheese </h4>
+					   
+					     
+								<div class="radio1">
+								  <label><input type="radio" name="radio" id = "Cheddar" value = "Cheddar">Cheddar</label>
+								</div>
+								<div class="radio1">
+								  <label><input type="radio" name="radio" id = "Swiss" value = "Swiss">Swiss</label>
+								</div>
+								<div class="radio1">
+								  <label><input type="radio" name="radio" id = "Mozzarella" value = "Mozzarella">Mozzarella</label>
+								</div>
+								<div class="radio1">
+								  <label><input type="radio" name="radio" id = "Provolone" value = "Provolone">Provolone</label>
+								</div>
+								<div class="radio1">
+								  <label><input type="radio" name="radio" id = "Monterey_Jack" value = "Monterey Jack">Monterey Jack</label>
+								</div>
+
+						 
+			   
+			          
+					  <input type = "button" class = "btn btn-primary 2" value = "Submit" />
+		     </div>
+		     <div class = "sauce">
+		     	<h4 class = "font-blue"> Sauce </h4>
+		     	                <div class="radio1">
+								  <label><input type="radio" name="radio2" id = "Pesto" value = "Pesto">Pesto</label>
+								</div>
+								<div class="radio1">
+								  <label><input type="radio" name="radio2" id = "Marinara" value = "Marinara">Marinara</label>
+								</div>
+								<div class="radio1">
+								  <label><input type="radio" name="radio2" id = "Bechamel" value = "Bechamel">Bechamel</label>
+								</div>
+								<div class="radio1">
+								  <label><input type="radio" name="radio2" id = "Barbecue_Sauce" value = "Barbecue Sauce">Barbecue Sauce</label>
+								</div>
+		     </div>
+
+     </form>
+  </div>
+  <div class = "toppings">
+  	 <form id = "toppingsOrder" method = "click" action="result.html">
+  	 	 <h1 class = "font-blue"> Choose Toppings </h1>
+  	 	      <div class = "toppings_col_1">
+  	 	      	 <h4 class = "font-blue"> Choose Meats </h4>
+  	 	      	   
+                    <div class="checkbox">
+                         <label><input type="checkbox" id = "Pepperoni" value="Pepperoni">Pepperoni</label>
+                    </div>
+                    <div class="checkbox">
+                          <label><input type="checkbox" id = "Sausage" value="Sausage">Sausage</label>
+                    </div>
+                    <div class="checkbox">
+                          <label><input type="checkbox" id = "Beef" value="Beef">Beef</label>
+                    </div>
+                    <div class="checkbox">
+                          <label><input type="checkbox" id = "Philly_Steak" value="Philly Steak">Philly Steak</label>
+                    </div>
+                    <div class="checkbox">
+                          <label><input type="checkbox" id = "Ham" value="Ham">Ham</label>
+                    </div>
+                     <div class="checkbox">
+                          <label><input type="checkbox" id = "Bacon" value="Bacon">Bacon</label>
+                    </div>
+                    <div class="checkbox">
+                          <label><input type="checkbox" id = "Salami" value="Salami">Salami</label>
+                    </div>
+                      <div class="checkbox">
+                          <label><input type="checkbox" id = "Premium_Chicken" value="Premium Chicken">Premium Chicken</label>
+                    </div>
+                    <input type = "submit" class = "btn btn-primary 3" value = "submit"/>
+             </div>
+            
+             <div class = "toppings_col_2">
+             	   <h4 class = "font-blue"> Choose Non-Meats </h4>
+             	      <div class = "toppings_col_2_1">
+		             	         <div class="checkbox">
+			                         <label><input type="checkbox" id = "Cheddar_Cheese" value="Cheddar Cheese">Cheddar Cheese</label>
+			                     </div>
+			                    <div class="checkbox">
+			                         <label><input type="checkbox" id = "Feta_Cheese" value="Feta Cheese">Feta Cheese</label>
+			                    </div>
+			                    <div class="checkbox">
+			                          <label><input type="checkbox" id = "Shredded_Parmesan_Asiago" value="Shredded Parmesan Asiago">Shredded Parmesan Asiago</label>
+			                    </div>
+			                    <div class="checkbox">
+			                          <label><input type="checkbox" id = "Shredded_Provolone_Cheese" value="Shredded Provolone Cheese">Shredded Provolone Cheese</label>
+			                    </div>
+			                    <div class="checkbox">
+			                          <label><input type="checkbox" id = "Banana_Peppers" value="Banana Peppers">Banana Peppers</label>
+			                    </div>
+			                    <div class="checkbox">
+			                          <label><input type="checkbox" id = "Black_Olives" value="Black Olives">Black Olives</label>
+			                    </div>
+			                     <div class="checkbox">
+			                          <label><input type="checkbox" id = "Garlic" value="Garlic">Garlic</label>
+			                    </div>
+			                    <div class="checkbox">
+			                          <label><input type="checkbox" id = "Green_Peppers" value="Green Peppers">Green Peppers</label>
+			                    </div>
+			                    <div class="checkbox">
+			                          <label><input type="checkbox" id = "Jalapeno_Peppers" value="Jalapeno Peppers">Jalapeno Peppers</label>
+			                    </div>
+			         </div>
+			         <div class = "toppings_col_2_2">
+			         	       <div class="checkbox">
+			                          <label><input type="checkbox" id = "Mushrooms" value="Mushrooms">Mushrooms</label>
+			                    </div>
+			                     <div class="checkbox">
+			                          <label><input type="checkbox" id = "Pineapple" value="Pineapple">Pineapple</label>
+			                    </div>
+			                    <div class="checkbox">
+			                          <label><input type="checkbox" id = "Onions" value="Onions">Onions</label>
+			                    </div>
+			                    <div class="checkbox">
+			                          <label><input type="checkbox" id = "Roasted_Red_Peppers" value="Roasted Red Peppers">Roasted Red Peppers</label>
+			                    </div>
+			                     <div class="checkbox">
+			                          <label><input type="checkbox" id = "Spinach" value="Spinach">Spinach</label>
+			                    </div>
+			                     <div class="checkbox">
+			                          <label><input type="checkbox" id = "Diced_Tomatoes" value="Diced Tomatoes">Diced Tomatoes</label>
+			                    </div>
+			                     <div class="checkbox">
+			                          <label><input type="checkbox" id = "Hot_Sauce" value="Hot Sauce">Hot Sauce</label>
+			                    </div>
+
+
+			         </div>
+
+             </div>
+  	 </form>
+
+  </div>
+
+<div class = "chart">
+	 
+</div>
+
+
+
+
+  <script>
+
+  	var meats = [];
+  	var non_meats = [];
+
+    
+
+  	$(document).ready(function() {
+        $(".crust").show()
+  	 	$(".cheese_sauce").hide()
+  	 	 $(".toppings").hide()
+  	 	 $(".chart").hide()
+    });
+  	 
+
+  	
+  		$(".btn.btn-primary.1").click(function(e) {
+           $(".crust").hide()
+           $(".cheese_sauce").show()
+           $(".toppings").hide()
+           $(".chart").hide()
+           if($('#Hand_Tossed_Small_10').is(':checked')) {
+           	//alert($('#Hand_Tossed_Small_10').val());
+           	 localStorage.setItem("crust", $('#Hand_Tossed_Small_10').val())
+           	// alert(localStorage.getItem("crust"));
+           } 
+           if ($('#Hand_Tossed_Medium_12').is(':checked')) {
+           	   localStorage.setItem("crust", $('#Hand_Tossed_Medium_12').val())
+           	  // alert(localStorage.getItem("crust"));
+           }
+           if ($('#Hand_Tossed_Large_14').is(':checked')) {
+           	   localStorage.setItem("crust", $('#Hand_Tossed_Large_14').val())
+           	  // alert(localStorage.getItem("crust"));
+           }
+           if ($('#Hand_Tossed_XLarge_16').is(':checked')) {
+           	   localStorage.setItem("crust", $('#Hand_Tossed_XLarge_16').val())
+           	  // alert(localStorage.getItem("crust"));
+           }
+           if ($('#Gluten_Free_Small_10').is(':checked')) {
+           	   localStorage.setItem("crust", $('#Gluten_Free_Small_10').val())
+           	 //  alert(localStorage.getItem("crust"));
+           }
+          if ($('#Homemade_Pan_Medium_12').is(':checked')) {
+           	   localStorage.setItem("crust", $('#Homemade_Pan_Medium_12').val())
+           	 //  alert(localStorage.getItem("crust"));
+           }
+
+           if ($('#Thin_Crust_Large_14').is(':checked')) {
+           	  localStorage.setItem("crust", $('#Thin_Crust_Large_14').val())
+           	 // alert(localStorage.getItem("crust"));
+           }
+           if ($('#Brooklyn_Large_14').is(':checked')) {
+           	  localStorage.setItem("crust", $('#Brooklyn_Large_14').val())
+           	 // alert(localStorage.getItem("crust"));
+           }
+
+           if ($('#Brooklyn_XLarge_16').is(':checked')) {
+           	  localStorage.setItem("crust", $('#Brooklyn_XLarge_16').val())
+           	//  alert(localStorage.getItem("crust"));
+           }
+         
+  		});
+
+  		$(".btn.btn-primary.2").click(function(e) {
+  			 $(".crust").hide()
+             $(".cheese_sauce").hide()
+             $(".toppings").show()
+             $(".chart").hide()
+  			  if($('#Cheddar').is(':checked')) {
+           	    localStorage.setItem("cheese", $('#Cheddar').val());
+           	    alert(localStorage.getItem("cheese"));
+              }
+              if($('#Swiss').is(':checked')) {
+           	    localStorage.setItem("cheese", $('#Swiss').val());
+           	   // alert(localStorage.getItem("cheese"));
+              }
+              if($('#Mozzarella').is(':checked')) {
+           	    localStorage.setItem("cheese", $('#Mozzarella').val());
+           	  //  alert(localStorage.getItem("cheese"));
+              }
+              if($('#Provolone').is(':checked')) {
+           	    localStorage.setItem("cheese", $('#Provolone').val());
+           	  //  alert(localStorage.getItem("cheese"));
+              }
+              if($('#Monterey_Jack').is(':checked')) {
+           	    localStorage.setItem("cheese", $('#Monterey_Jack').val());
+           	  //  alert(localStorage.getItem("cheese"));
+              }
+              if($('#Pesto').is(':checked')) {
+           	    localStorage.setItem("sauce", $('#Pesto').val());
+           	   // alert(localStorage.getItem("sauce"));
+              }
+               if($('#Marinara').is(':checked')) {
+           	    localStorage.setItem("sauce", $('#Marinara').val());
+           	   // alert(localStorage.getItem("sauce"));
+              }
+               if($('#Bechamel').is(':checked')) {
+           	    localStorage.setItem("sauce", $('#Bechamel').val());
+           	  //  alert(localStorage.getItem("sauce"));
+              }
+              if($('#Barbecue_Sauce').is(':checked')) {
+           	    localStorage.setItem("sauce", $('#Barbecue_Sauce').val());
+           	   // alert(localStorage.getItem("sauce"));
+              }
+
+  		});
+
+  		$(".btn.btn-primary.3").click(function(e) {
+  			 $(".crust").hide()
+             $(".cheese_sauce").hide()
+             $(".toppings").hide()
+             $(".chart").show()
+             if($('#Pepperoni').is(':checked')) {
+           	    meats.push($('#Pepperoni').val())
+             }
+             if($('#Sausage').is(':checked')) {
+           	    meats.push($('#Sausage').val())
+             }
+             if($('#Beef').is(':checked')) {
+           	    meats.push($('#Beef').val())
+             }
+             if($('#Pepperoni').is(':checked')) {
+           	    meats.push($('#Pepperoni').val())
+             }
+             if($('#Philly_Steak').is(':checked')) {
+           	    meats.push($('#Philly_Steak').val())
+             }
+             if($('#Ham').is(':checked')) {
+           	    meats.push($('#Ham').val())
+             }
+             if($('#Bacon').is(':checked')) {
+           	    meats.push($('#Bacon').val())
+             }
+         
+             if($('#Salami').is(':checked')) {
+           	    meats.push($('#Salami').val())
+             }
+             if($('#Premium_Chicken').is(':checked')) {
+           	    meats.push($('#Premium_Chicken').val())
+             }
+             if($('#Cheddar_Cheese').is(':checked')) {
+           	    non_meats.push($('#Cheddar_Cheese').val())
+             }
+              if($('#Feta_Cheese').is(':checked')) {
+           	    non_meats.push($('#Feta_Cheese').val())
+             }
+           
+              if($('#Shredded_Parmesan_Asiago').is(':checked')) {
+           	    non_meats.push($('#Shredded_Parmesan_Asiago').val())
+             }
+            
+             
+             
+             if($('#Shredded_Provolone_Cheese').is(':checked')) {
+           	    non_meats.push($('#Shredded_Provolone_Cheese').val())
+             }
+             if($('#Banana_Peppers').is(':checked')) {
+           	    non_meats.push($('#Banana_Peppers').val())
+             }
+             if($('#Black_Olives').is(':checked')) {
+           	    non_meats.push($('#Black_Olives').val())
+             }
+             
+             if($('#Garlic').is(':checked')) {
+           	    non_meats.push($('#Garlic').val())
+             }
+             if($('#Green_Peppers').is(':checked')) {
+           	    non_meats.push($('#Green_Peppers').val())
+             }
+             if($('#Jalapeno_Peppers').is(':checked')) {
+           	    non_meats.push($('#Jalapeno_Peppers').val())
+             }
+             if($('#Mushrooms').is(':checked')) {
+           	    non_meats.push($('#Mushrooms').val())
+             }
+              if($('#Pineapple').is(':checked')) {
+           	    non_meats.push($('#Pineapple').val())
+             }
+              if($('#Onions').is(':checked')) {
+           	    non_meats.push($('#Onions').val())
+             }
+             if($('#Roasted_Red_Peppers').is(':checked')) {
+           	    non_meats.push($('#Roasted_Red_Peppers').val())
+             }
+             if($('#Spinach').is(':checked')) {
+           	    non_meats.push($('#Spinach').val())
+             }
+             if($('#Diced_Tomatoes').is(':checked')) {
+           	    non_meats.push($('#Diced_Tomatoes').val())
+             }
+              if($('#Hot_Sauce').is(':checked')) {
+           	    non_meats.push($('#Hot_Sauce').val())
+             }
+
+              localStorage.setItem("meats", JSON.stringify(meats));
+              localStorage.setItem("non-meats", JSON.stringify(non_meats));
+
+  	    });
+
+  
+
+  </script>
+  
+
+</body>
+</html>

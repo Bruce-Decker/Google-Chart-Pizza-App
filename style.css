@@ -1,0 +1,66 @@
+.crust {
+	margin-left: 20px;
+}
+
+.cheese_sauce {
+	margin-left: 20px;
+}
+
+.toppings {
+	margin-left: 20px;
+}
+.font-blue {
+	color: #48CCCD;
+}
+
+.crust_col_1 {
+
+	float:left;
+	margin-right: 50px;
+}
+
+.crust_col_2 {
+	float:left;
+	margin-right: 50px;
+	width: 300px;
+}
+
+.crust_col_3 {
+	float:left;
+
+
+	width: 300px;
+}
+
+.cheese {
+
+	float:left;
+	margin-right: 50px;
+	width: 200px;
+	
+}
+
+.sauce {
+	float:left;
+	width: 300px;
+}
+
+.toppings_col_1 {
+   float:left;
+   margin-right: 50px;
+}
+
+.toppings_col_2 {
+   float:left;
+  
+}
+
+.toppings_col_2_1 {
+	 float:left;
+	 margin-right:50px;
+}
+
+.toppings_col_2_2 {
+	 float:left;
+}
+
